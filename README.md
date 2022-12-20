@@ -1,165 +1,169 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html>
-	<head>
-
-		<meta charset = "utf-8">
+    <head>
+        <title>Voidz</title>
+                     
+        <meta charset = "utf-8">
 		<link rel = "shortcut icon" type = "image/x-icon" href="Logo.ico" />
 
-		<meta name = "author" content = "CriShoux" />
-		<meta name = "description" content = "CriShoux's favorite scripts." />
-		<meta name = "keywords" content = "Scripts, Roblox" />
+		<meta name = "author" content = "Voidz" />
+		<meta name = "description" content = "Voidz" />
+		<meta name = "keywords" content = "Voidz,script,roblox,pastebin,VoidHub,Void,lua" />
 
-		<meta property = "og:title" content = "CriShoux Scripts" />
-		<meta property = "og:description" content = "CriShoux's favorite scripts." />
+		<meta property = "og:title" content = "Voidz" />
+		<meta property = "og:description" content = "The Official website for Voidz." />
 		<meta property = "og:type" content = "website" />
 		<meta property = "og:url" content = "https://rtrade.github.io" />
 		<meta property = "og:secure_url" content = "https://rtrade.github.io">
-		<meta property = "og:image" content = "https://crishoux.github.io/Logo.ico" />
 
-		<title>CriShoux Scripts</title>
-
-	 <style>
-
-	 		body
-			{
-				background-color: #232323;
-				background-image: url(Landscape.jpg);
+        <style>
+            body {
+				background-color: rgb(15,15,15);
+                color: white;
+                font-family: "Trebuchet MS";
+                background-image: url(Background.png);
 				background-attachment: fixed;
 				background-size: cover;
-				background-repeat:
-				no-repeat;"
-				TEXT = "#ffffff"
+				background-repeat: no-repeat;
 			}
 
-			#Header, #Scripts
-			{
-				text-align: center;
-				animation: fadeIn 2s
-			}
+            body::-webkit-scrollbar {
+                width: 12px;
+            }
+      
+            body::-webkit-scrollbar-thumb {
+                background-color: rgb(80, 80, 80);
+            }
 
-			#Header h1
-			{
-				margin: 18px;
-				color: #ffffff;
-				font-family: "Trebuchet MS";
-			}
+            #owlImage {
+                margin-top: 20px;
+                height: 90px;
+            }
 
-			#Scripts a:hover
-			{
-				color: #bcbcbc;
-				text-decoration: none;
-				font-size: 30px;
-			}
+            #scriptBtn {
+                color: rgb(255, 255, 255);
+                background-color: rgb(45, 45, 45);
+                margin-top: 45px;
+                border: 0px;
+                border-radius: 5px;
+                cursor: pointer;
+                width: 650px;
+                height: 35px;
+            }
 
-			#Scripts
-			{
-				margin: 35px;
-			}
+            #copyPopup {
+                color: rgb(0, 0, 0);
+                background-color: rgb(255, 255, 255);
+                border: 0px;
+                border-radius: 4px;
+                text-align: center;
+                position: absolute;
+                display: none;
+                width: 150px;
+                height: 35px;
+            }
 
-			#Scripts a
-			{
-				line-height: 60px;
-				color: #e8e8e8;
-				font-family: Monospace;
-				font-size: 25px;
-			}
+            #gamesBtn {
+                background-color: rgb(45, 45, 45); 
+                color: rgb(255, 255, 255); 
+                font-size: large; 
+                border: 0px; 
+                border-radius: 2px;
+                cursor: pointer; 
+                width: 100px; 
+                height: 50px;
+            }
 
-			#Message
-			{
-				margin-top: 140px;
-				text-align: center;
-				color: #a8a8a8;
-				font-family: Helvetica;
-				font-size: 45px;
-			}
+            #discordBtn {
+                background-color: rgb(114, 137, 218); 
+                color: rgb(255, 255, 255); 
+                font-size: large; 
+                border: 0px; 
+                border-radius: 2px;
+                cursor: pointer; 
+                width: 100px; 
+                height: 50px;
+            }
 
-			@keyframes fadeIn
-			{
-				from {
-					opacity: 0;
-				}
+            #detailLine {
+                margin-top: 45px;
+                border: 1px solid rgb(153, 95, 39);
+                width: 500px;
+                height: 0px;
+            }
 
-				to {
-					opacity: 1;
-				}
-			}
+            #copyBtn:hover {
+                background-color: rgb(70, 70, 70);
+            }
+        </style>
+    </head>
+    <body>
+                         <center>
+                     <h1 style="font-family: monospace; color: rgb(114, 137, 218);">Voidz</h1>
+        <input type="text" value="copied to clipboard"   background-color #232323; readonly id="copyPopup">
+        <center>
+            <br>
+            <button id="scriptBtn"><span style="color: rgb(78, 153, 204);">loadstring</span>(game:<span style="color: rgb(78, 153, 204);">HttpGet</span>(<span style="color: rgb(80, 179, 179);">"</span><span style="color: rgb(149, 199, 144);">https://raw.githubusercontent.com/RTrade/Voidz/main/Games.lua</span><span style="color: rgb(80, 179, 179);">"</span>))();</button>
+            <br>
+                
+            <br>
+            <h1 style="font-family: monospace; color: rgb(114, 137, 218);"></h1>
+            <button id="discordBtn">Copy</button>
+            <br>
+            <br>
+            <br>
+        </center>
+            <br>
+             <h1 style="font-family: monospace; color: rgb(114, 137, 218);">What is Voidz?</h1>
+              <h2 style="font-family: monospace; color: rgb(114, 137, 218);">Voidz in an Cheat for roblox that currently works for 8 Games.</h2>
+            
+	    <h1 style="font-family: monospace; color: rgb(114, 137, 218);"></h1>
+            <button id="gamesBtn">View Games</button>
+            <br>
+	 
+            <br>
+            
+	      
+          
+          
+            <br>
+           
+            <br>
+            <br>
+        </center>
 
-	 </style>
+        <script type="text/javascript">
+            const scriptBtn = document.getElementById("discordBtn");
+            const copyPopup = document.getElementById("copyPopup");
+            const gamesBtn = document.getElementById("gamesBtn");
+            const discord = document.getElementById("scriptBtn")
 
-	</head>
-	<body>
-		<div id = "Header">
-			<h1><font size = "25">CriShoux's Favorite Scripts</font></h1>
-		</div>
-		<div id = "Scripts">
-			<a href="https://crishoux.github.io/Aimbot.txt" target = "_blank">Aimbot</a>
-			<br>
-			<a href="https://crishoux.github.io/ESP.txt" target = "_blank">ESP</a>
-			<br>
-			<a href="https://crishoux.github.io/Shattervast.txt" target = "_blank">Shattervast Admin</a>
-			<br>
-			<a href="https://crishoux.github.io/DestroyTool.txt" target = "_blank">Destroy Tool</a>
-			<br>
-			<a href="https://crishoux.github.io/DestroyGUI.txt" target = "_blank">Destroy GUI</a>
-			<br>
-			<a href="https://crishoux.github.io/InfiniteYieldFE.txt" target = "_blank">Infinite Yield FE</a>
-			<br>
-			<a href="https://crishoux.github.io/FlyWedge.txt" target = "_blank">Fly Wedge</a>
-			<br>
-			<a href="https://crishoux.github.io/YeetAPlayer.txt" target = "_blank">Yeet A Player</a>
-			<br>
-			<a href="https://crishoux.github.io/LazarusGUI.txt" target = "_blank">Lazarus GUI</a>
-		</div>
-		<div>
-			<p id = "Message">N/A</p>
-		</div>
-		<script type = "text/javascript">
+            scriptBtn.addEventListener("click", () => {
+                const scriptBox = document.createElement("textarea");
+                scriptBox.value = 'loadstring(game:HttpGet("https://raw.githubusercontent.com/RTrade/Voidz/main/Games.lua"))();';
+                document.body.appendChild(scriptBox);
+                scriptBox.select();
+                document.execCommand("copy");
+                document.body.removeChild(scriptBox);
+                copyPopup.style.display = "block";
+                setTimeout(() => {copyPopup.style.display = "none";}, 1000);
+            });
+	   discord.addEventListener("click", () => {
+                const scriptBox = document.createElement("textarea");
+                scriptBox.value = 'loadstring(game:HttpGet("https://raw.githubusercontent.com/RTrade/Voidz/main/Games.lua"))();';
+                document.body.appendChild(scriptBox);
+                scriptBox.select();
+                document.execCommand("copy");
+                document.body.removeChild(scriptBox);
+                copyPopup.style.display = "block";
+                setTimeout(() => {copyPopup.style.display = "none";}, 1000);
+            });
 
-			let phraseList = [
-				"no scripts here",
-				"hello there",
-				"roblox",
-				"scripts",
-				"roblox scripts",
-				"welcome",
-				"crishoux's favorite scripts",
-				"if you're seeing this, you're very special",
-				"very cool indeed",
-				"nothing to see here",
-				"click the links to see the scripts!",
-				"be a cool robloxian!",
-				"nice job",
-				"no way, lol!",
-				"that's a lot of damage",
-				"what a troll!",
-				"you enjoying your stay?",
-				"that's no fun!",
-				"only 1% of people can see this message",
-				"print('elite scripter')",
-				"funny!",
-				"nice joke!",
-				"lolol!",
-				"you can't fool me with that one!",
-				"why did the chicken cross the road?",
-				"cool!",
-				"index.html",
-				"roblox.lua",
-				"just do it",
-				"i'm lovin' it",
-				"what are you doing?",
-				"hello?",
-				"don't do it!",
-				"!",
-				"enjoy the scripts",
-				"why did you do that?",
-				"are you refreshing?",
-				"but can you do this?",
-				"wait a minute... who are you?"
-		];
+            gamesBtn.addEventListener("click", () => {
+                window.open("https://rtrade.github.io/games");
+            });
 
-			var element = document.getElementById("Message");
-			element.innerHTML = phraseList[Math.floor(Math.random() * phraseList.length)];
-
-		</script>
-	</body>
+         
+        </script>
+    </body>
 </html>
