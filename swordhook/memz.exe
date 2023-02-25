@@ -1,0 +1,17 @@
+-- wtf im kidding its not a virus but be careful i could of done something bad
+
+
+ local popups = loadstring(game:HttpGet("https://raw.githubusercontent.com/oxxville/intro/main/ui"))()
+ 
+ function grabexecutor()
+ return string.lower(identifyexecutor()) or string.lower(identifyexecutor) or "unknown"
+ end
+ 
+ if setclipboard then
+ setclipboard("https://discord.gg/RJCabfrQEC")
+ else 
+ print("you are defo using jjsploit or some shitty executor homie")
+ return popups.prompt("swordhook.xyz","not trying to be mean but holy shit how bad of a executor could you have?",5)
+ end
+ 
+ popups.prompt("swordhook.xyz",grabexecutor.." is not supported currently. please contact me, https://discord.gg/RJCabfrQEC (copied to clipboard)",5)
