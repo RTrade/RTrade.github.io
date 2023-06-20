@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Minceraft</title>
+<title>FergusCraft</title>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <meta name="description" content="minecraft 1.5.2 (22w43a cracked)" />
@@ -11,10 +11,33 @@
 <meta property="og:locale" content="en-US" />
 <meta property="og:type" content="website" />
 <meta property="og:image" content="https://media.discordapp.net/attachments/378764518081429506/932053915061587978/thumbnail2.png" />
+<link type="image/png" rel="shortcut icon" href="favicon.png" />
 <meta property="og:description" content="Eaglercraft is real Minecraft 1.5.2 that you can play in any regular web browser. That includes school chromebooks, it works on all chromebooks. It supports both singleplayer and multiplayer with no extensions." />
+
+	
 <!-- Change this: <meta property="og:url" content="https://g.eags.us/eaglercraft/" /> -->
 <script type="text/javascript" src="classes.js"></script>
 <script type="text/javascript" src="eagswebrtc.js"></script>
+	  <script type="text/javascript">
+    function replaceText() {
+      const elements = document.getElementsByTagName('*');
+      for (let i = 0; i < elements.length; i++) {
+        const element = elements[i];
+        for (let j = 0; j < element.childNodes.length; j++) {
+          const node = element.childNodes[j];
+          if (node.nodeType === 3) {
+            const text = node.nodeValue;
+            const replacedText = text.replace(/eaglercraft/gi, 'ferguscraft');
+            if (replacedText !== text) {
+              element.replaceChild(document.createTextNode(replacedText), node);
+            }
+          }
+        }
+      }
+    }
+
+    window.addEventListener('load', replaceText);
+  </script>
 <script type="text/javascript">
 if(document.location.href.startsWith("file:")) {
 alert("You cannot 'open' this file in your browser, the code doesn't work. Upload this folder to your HTTP(s) server and access it via the internet to launch the stable-download game. This is not a bug, please read the documentation");
