@@ -1,0 +1,104 @@
+/* Accent Color (for easy editing) */
+:root {
+    --accent: #583098;
+}
+
+/* Entire Page Css Rules */
+html, body { 
+    cursor: url("https://i.imgur.com/A1kKezG.png"), default;
+    padding: 0;
+    margin: 0;
+    background: #121212;
+    color: white;
+    overflow: hidden;
+    font-family: Quicksand, sans-serif;
+}
+
+
+/* Main title and content holder */
+p.title {
+    font-family: Quicksand, sans-serif;
+    font-size: 78px;
+    text-align: center;
+    color: lightgray;
+    margin-bottom: 0;
+}
+div.content {
+    padding: 0;
+    margin: 0;
+    background-color: rgba(255, 0, 0, 0);
+    position: absolute;
+    display:flex;
+    flex-direction: column;
+    z-index:999;
+    width:100%;
+    position:absolute;
+    left: 50%;
+    top: 45%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* Links under main title and divider */
+span.linkholder {
+    text-align: center;
+    font-family: Poppins, sans-serif;
+}
+.link {
+    color: darkgray;
+    cursor: url("https://i.imgur.com/A1kKezG.png"), default;
+    transition: color 0.3s ease;
+    padding: 0px 5px;
+    text-decoration: none;
+}
+.link:hover {
+    color: var(--accent);
+}
+.link:active {
+    color: var(--accent);
+}
+
+
+/* Particles div and selection rules */
+#particles-div {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: inline;
+}
+::selection {
+    background: var(--accent);
+    color: white;
+}
+
+
+/* Image/slide shit */
+img.preload {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    visibility: hidden;
+}
+.cnt > .slide {
+    display: table-cell;
+    vertical-align: middle;
+}
+#back {
+    transition: color 0.2s ease;
+    cursor: pointer;
+    padding: 0px 8px;
+}
+#forward {
+    transition: color 0.2s ease;
+    cursor: pointer;
+    padding: 0px 8px;
+}
+#forward:hover {
+    color: var(--accent);
+}
+#back:hover {
+    color: var(--accent);
+}
