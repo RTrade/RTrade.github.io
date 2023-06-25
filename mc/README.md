@@ -3,13 +3,13 @@
 Discover a world of creativity, challenges, and endless fun with EaglerCraft. Experience the magic of Minecraft, transformed into a browser-based adventure that you can enjoy anytime, anywhere. Get ready to embark on an unforgettable journey within the virtual realms of EaglerCraft."
 
 - [Installation](#installation)
-- [Usage](#usage)
+- [Usage](#showcase)
 - [Credits](#credits)
 
 # Installation
 Download and extract the Eaglercraft software, and subsequently proceed to upload it to your designated website upon completion. For Live Demo, please visit the following URL: https://rtrade.github.io/minecraft.
 
-# Usage
+# Showcase
 ![Cracked Minecraft](./showcase.jpg)
 
 # Credits
