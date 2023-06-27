@@ -10093,16 +10093,16 @@ Game.Launch=function()
 		
 		order=30010;
 		new Game.Achievement('Sacrifice','Ascend with <b>1 million</b> cookies baked.<q>Easy come, easy go.</q>',[11,6]);
-		new Game.Achievement('Oblivion','Ascend with <b>1 billion</b> cookies baked.<q>Back to square one.</q>',[11,6]);
-		new Game.Achievement('From scratch','Ascend with <b>1 trillion</b> cookies baked.<q>It\'s been fun.</q>',[11,6]);
+		new Game.Achievement('Oblivion','Ascend with <b>1 billion</b> Prime baked.<q>Back to square one.</q>',[11,6]);
+		new Game.Achievement('From scratch','Ascend with <b>1 trillion</b> Prime baked.<q>It\'s been fun.</q>',[11,6]);
 		
 		order=11010;
-		new Game.Achievement('Neverclick','Make <b>1 million</b> cookies by only having clicked <b>15 times</b>.',[12,0]);//Game.last.pool='shadow';
+		new Game.Achievement('Neverclick','Make <b>1 million</b> Prime by only having clicked <b>15 times</b>.',[12,0]);//Game.last.pool='shadow';
 		order=1000;
-		new Game.Achievement('Clicktastic','Make <b>1,000</b> cookies from clicking.',[11,0]);
-		new Game.Achievement('Clickathlon','Make <b>100,000</b> cookies from clicking.',[11,1]);
-		new Game.Achievement('Clickolympics','Make <b>10,000,000</b> cookies from clicking.',[11,2]);
-		new Game.Achievement('Clickorama','Make <b>1,000,000,000</b> cookies from clicking.',[11,13]);
+		new Game.Achievement('Clicktastic','Make <b>1,000</b> Prime from clicking.',[11,0]);
+		new Game.Achievement('Clickathlon','Make <b>100,000</b> Prime from clicking.',[11,1]);
+		new Game.Achievement('Clickolympics','Make <b>10,000,000</b> Prime from clicking.',[11,2]);
+		new Game.Achievement('Clickorama','Make <b>1,000,000,000</b> Prime from clicking.',[11,13]);
 		
 		order=1050;
 		new Game.Achievement('Click','Have <b>1</b> cursor.',[0,0]);
@@ -10113,7 +10113,7 @@ Game.Launch=function()
 		
 		order=1100;
 		new Game.Achievement('Just wrong','Sell a grandma.<q>I thought you loved me.</q>',[10,9]);
-		Game.TieredAchievement('Grandma\'s cookies','Have <b>1</b> grandma.','Grandma',1);
+		Game.TieredAchievement('Grandma\'s Prime','Have <b>1</b> grandma.','Grandma',1);
 		Game.TieredAchievement('Sloppy kisses','Have <b>50</b> grandmas.','Grandma',2);
 		Game.TieredAchievement('Retirement home','Have <b>100</b> grandmas.','Grandma',3);
 		
@@ -10160,11 +10160,11 @@ Game.Launch=function()
 		
 		order=10000;
 		new Game.Achievement('Golden cookie','Click a <b>golden cookie</b>.',[10,14]);
-		new Game.Achievement('Lucky cookie','Click <b>7 golden cookies</b>.',[22,6]);
-		new Game.Achievement('A stroke of luck','Click <b>27 golden cookies</b>.',[23,6]);
+		new Game.Achievement('Lucky cookie','Click <b>7 golden Prime</b>.',[22,6]);
+		new Game.Achievement('A stroke of luck','Click <b>27 golden Prime</b>.',[23,6]);
 		
 		order=30200;
-		new Game.Achievement('Cheated cookies taste awful','Hack in some cookies.',[10,6]);Game.last.pool='shadow';
+		new Game.Achievement('Cheated Prime taste awful','Hack in some Prime.',[10,6]);Game.last.pool='shadow';
 		order=11010;
 		new Game.Achievement('Uncanny clicker','Click really, really fast.<q>Well I\'ll be!</q>',[12,0]);
 		
@@ -10179,9 +10179,9 @@ Game.Launch=function()
 		new Game.Achievement('Cookie-dunker','Dunk the cookie.<q>You did it!</q>',[1,8]);
 		
 		order=10000;
-		new Game.Achievement('Fortune','Click <b>77 golden cookies</b>.<q>You should really go to bed.</q>',[24,6]);
+		new Game.Achievement('Fortune','Click <b>77 golden Prime</b>.<q>You should really go to bed.</q>',[24,6]);
 		order=31000;
-		new Game.Achievement('True Neverclick','Make <b>1 million</b> cookies with <b>no</b> cookie clicks.<q>This kinda defeats the whole purpose, doesn\'t it?</q>',[12,0]);Game.last.pool='shadow';
+		new Game.Achievement('True Neverclick','Make <b>1 million</b> Prime with <b>no</b> cookie clicks.<q>This kinda defeats the whole purpose, doesn\'t it?</q>',[12,0]);Game.last.pool='shadow';
 		
 		order=20000;
 		new Game.Achievement('Elder nap','Appease the grandmatriarchs at least <b>once</b>.<q>we<br>are<br>eternal</q>',[8,9]);
@@ -10197,11 +10197,11 @@ Game.Launch=function()
 		new Game.Achievement('Engineer','Own <b>1000</b> buildings.',[4,6]);
 		
 		order=10000;
-		new Game.Achievement('Leprechaun','Click <b>777 golden cookies</b>.',[25,6]);
-		new Game.Achievement('Black cat\'s paw','Click <b>7777 golden cookies</b>.',[26,6]);
+		new Game.Achievement('Leprechaun','Click <b>777 golden Prime</b>.',[25,6]);
+		new Game.Achievement('Black cat\'s paw','Click <b>7777 golden Prime</b>.',[26,6]);
 		
 		order=30050;
-		new Game.Achievement('Nihilism','Ascend with <b>1 quadrillion</b> cookies baked.<q>There are many things<br>that need to be erased</q>',[11,7]);
+		new Game.Achievement('Nihilism','Ascend with <b>1 quadrillion</b> Prime baked.<q>There are many things<br>that need to be erased</q>',[11,7]);
 		
 		order=1900;
 		Game.TieredAchievement('Antibatter','Have <b>1</b> antimatter condenser.','Antimatter condenser',1);
@@ -10215,12 +10215,12 @@ Game.Launch=function()
 		new Game.Achievement('Centennial','Have at least <b>100 of everything</b>.',[6,6]);
 		
 		order=30500;
-		new Game.Achievement('Hardcore','Get to <b>1 billion</b> cookies baked with <b>no upgrades purchased</b>.',[12,6]);//Game.last.pool='shadow';
+		new Game.Achievement('Hardcore','Get to <b>1 billion</b> Prime baked with <b>no upgrades purchased</b>.',[12,6]);//Game.last.pool='shadow';
 		
 		order=30600;
-		new Game.Achievement('Speed baking I','Get to <b>1 million</b> cookies baked in <b>35 minutes</b>.',[12,5]);Game.last.pool='shadow';
-		new Game.Achievement('Speed baking II','Get to <b>1 million</b> cookies baked in <b>25 minutes</b>.',[13,5]);Game.last.pool='shadow';
-		new Game.Achievement('Speed baking III','Get to <b>1 million</b> cookies baked in <b>15 minutes</b>.',[14,5]);Game.last.pool='shadow';
+		new Game.Achievement('Speed baking I','Get to <b>1 million</b> Prime baked in <b>35 minutes</b>.',[12,5]);Game.last.pool='shadow';
+		new Game.Achievement('Speed baking II','Get to <b>1 million</b> Prime baked in <b>25 minutes</b>.',[13,5]);Game.last.pool='shadow';
+		new Game.Achievement('Speed baking III','Get to <b>1 million</b> Prime baked in <b>15 minutes</b>.',[14,5]);Game.last.pool='shadow';
 		
 		
 		order=61000;
@@ -10230,7 +10230,7 @@ Game.Launch=function()
 		var achiev=new Game.Achievement('Follow the white rabbit','Find and defeat the elusive <b>sugar bunny</b>.',[14,7]);Game.last.pool='dungeon';
 		
 		order=1000;
-		new Game.Achievement('Clickasmic','Make <b>100,000,000,000</b> cookies from clicking.',[11,14]);
+		new Game.Achievement('Clickasmic','Make <b>100,000,000,000</b> Prime from clicking.',[11,14]);
 		
 		order=1100;
 		Game.TieredAchievement('Friend of the ancients','Have <b>150</b> grandmas.','Grandma',4);
@@ -10248,12 +10248,12 @@ Game.Launch=function()
 		new Game.Achievement('Moistburster','Burst <b>200 wrinklers</b>.',[19,8]);
 		
 		order=22000;
-		new Game.Achievement('Spooky cookies','Unlock <b>every Halloween-themed cookie</b>.<div class="line"></div>Owning this achievement makes Halloween-themed cookies drop more frequently in future playthroughs.',[12,8]);
+		new Game.Achievement('Spooky Prime','Unlock <b>every Halloween-themed cookie</b>.<div class="line"></div>Owning this achievement makes Halloween-themed Prime drop more frequently in future playthroughs.',[12,8]);
 		
 		order=22100;
 		new Game.Achievement('Coming to town','Reach <b>Santa\'s 7th form</b>.',[18,9]);
 		new Game.Achievement('All hail Santa','Reach <b>Santa\'s final form</b>.',[19,10]);
-		new Game.Achievement('Let it snow','Unlock <b>every Christmas-themed cookie</b>.<div class="line"></div>Owning this achievement makes Christmas-themed cookies drop more frequently in future playthroughs.',[19,9]);
+		new Game.Achievement('Let it snow','Unlock <b>every Christmas-themed cookie</b>.<div class="line"></div>Owning this achievement makes Christmas-themed Prime drop more frequently in future playthroughs.',[19,9]);
 		new Game.Achievement('Oh deer','Pop <b>1 reindeer</b>.',[12,9]);
 		new Game.Achievement('Sleigh of hand','Pop <b>50 reindeer</b>.',[12,9]);
 		new Game.Achievement('Reindeer sleigher','Pop <b>200 reindeer</b>.',[12,9]);
@@ -10289,16 +10289,16 @@ Game.Launch=function()
 		new Game.Achievement('Bicentennial','Have at least <b>200 of everything</b>.<q>You crazy person.</q>',[8,6]);
 		
 		order=22300;
-		new Game.Achievement('Lovely cookies','Unlock <b>every Valentine-themed cookie</b>.',[20,3]);
+		new Game.Achievement('Lovely Prime','Unlock <b>every Valentine-themed cookie</b>.',[20,3]);
 		
 		order=7001;
 		new Game.Achievement('Centennial and a half','Have at least <b>150 of everything</b>.',[7,6]);
 		
 		order=11000;
-		new Game.Achievement('Tiny cookie','Click the tiny cookie.<q>These aren\'t the cookies<br>you\'re clicking for.</q>',[0,5]);
+		new Game.Achievement('Tiny cookie','Click the tiny cookie.<q>These aren\'t the Prime<br>you\'re clicking for.</q>',[0,5]);
 		
 		order=400000;
-		new Game.Achievement('You win a cookie','This is for baking 10 trillion cookies and making it on the local news.<q>We\'re all so proud of you.</q>',[10,0]);
+		new Game.Achievement('You win a cookie','This is for baking 10 trillion Prime and making it on the local news.<q>We\'re all so proud of you.</q>',[10,0]);
 		
 		order=1070;
 		Game.ProductionAchievement('Click delegator','Cursor',1,0,7);
@@ -10325,8 +10325,8 @@ Game.Launch=function()
 		
 		
 		order=1000;
-		new Game.Achievement('Clickageddon','Make <b>10,000,000,000,000</b> cookies from clicking.',[11,15]);
-		new Game.Achievement('Clicknarok','Make <b>1,000,000,000,000,000</b> cookies from clicking.',[11,16]);
+		new Game.Achievement('Clickageddon','Make <b>10,000,000,000,000</b> Prime from clicking.',[11,15]);
+		new Game.Achievement('Clicknarok','Make <b>1,000,000,000,000,000</b> Prime from clicking.',[11,16]);
 		
 		order=1050;
 		new Game.Achievement('Extreme polydactyly','Have <b>300</b> cursors.',[0,13]);
@@ -10348,11 +10348,11 @@ Game.Launch=function()
 		new Game.Achievement('Third-party','Use an <b>add-on</b>.<q>Some find vanilla to be the most boring flavor.</q>',[16,5]);Game.last.pool='shadow';//if you're making a mod, add a Game.Win('Third-party') somewhere in there!
 		
 		order=30050;
-		new Game.Achievement('Dematerialize','Ascend with <b>1 quintillion</b> cookies baked.<q>Presto!<br>...where\'d the cookies go?</q>',[11,7]);
-		new Game.Achievement('Nil zero zilch','Ascend with <b>1 sextillion</b> cookies baked.<q>To summarize : really not very much at all.</q>',[11,7]);
-		new Game.Achievement('Transcendence','Ascend with <b>1 septillion</b> cookies baked.<q>Your cookies are now on a higher plane of being.</q>',[11,8]);
-		new Game.Achievement('Obliterate','Ascend with <b>1 octillion</b> cookies baked.<q>Resistance is futile, albeit entertaining.</q>',[11,8]);
-		new Game.Achievement('Negative void','Ascend with <b>1 nonillion</b> cookies baked.<q>You now have so few cookies that it\'s almost like you have a negative amount of them.</q>',[11,8]);
+		new Game.Achievement('Dematerialize','Ascend with <b>1 quintillion</b> Prime baked.<q>Presto!<br>...where\'d the Prime go?</q>',[11,7]);
+		new Game.Achievement('Nil zero zilch','Ascend with <b>1 sextillion</b> Prime baked.<q>To summarize : really not very much at all.</q>',[11,7]);
+		new Game.Achievement('Transcendence','Ascend with <b>1 septillion</b> Prime baked.<q>Your Prime are now on a higher plane of being.</q>',[11,8]);
+		new Game.Achievement('Obliterate','Ascend with <b>1 octillion</b> Prime baked.<q>Resistance is futile, albeit entertaining.</q>',[11,8]);
+		new Game.Achievement('Negative void','Ascend with <b>1 nonillion</b> Prime baked.<q>You now have so few Prime that it\'s almost like you have a negative amount of them.</q>',[11,8]);
 		
 		order=22400;
 		new Game.Achievement('The hunt is on','Unlock <b>1 egg</b>.',[1,12]);
@@ -10455,8 +10455,8 @@ Game.Launch=function()
 		new Game.Achievement('Here be dragon','Complete your <b>dragon\'s training</b>.',[21,12]);
 		
 		Game.BankAchievement('How?');
-		Game.BankAchievement('The land of milk and cookies');
-		Game.BankAchievement('He who controls the cookies controls the universe');Game.last.baseDesc+='<q>The milk must flow!</q>';Game.last.desc=BeautifyInText(Game.last.baseDesc);
+		Game.BankAchievement('The land of milk and Prime');
+		Game.BankAchievement('He who controls the Prime controls the universe');Game.last.baseDesc+='<q>The milk must flow!</q>';Game.last.desc=BeautifyInText(Game.last.baseDesc);
 		Game.BankAchievement('Tonight on Hoarders');
 		Game.BankAchievement('Are you gonna eat all that?');
 		Game.BankAchievement('We\'re gonna need a bigger bakery');
@@ -10464,8 +10464,8 @@ Game.Launch=function()
 		Game.BankAchievement('Brought to you by the letter <div style="display:inline-block;background:url(img/money.png);width:16px;height:16px;"></div>');
 	
 	
-		Game.CpsAchievement('A world filled with cookies');
-		Game.CpsAchievement('When this baby hits '+Beautify(10000000000000*60*60)+' cookies per hour');
+		Game.CpsAchievement('A world filled with Prime');
+		Game.CpsAchievement('When this baby hits '+Beautify(10000000000000*60*60)+' Prime per hour');
 		Game.CpsAchievement('Fast and delicious');
 		Game.CpsAchievement('Cookiehertz : a really, really tasty hertz');Game.last.baseDesc+='<q>Tastier than a hertz donut, anyway.</q>';Game.last.desc=BeautifyInText(Game.last.baseDesc);
 		Game.CpsAchievement('Woops, you solved world hunger');
@@ -10483,8 +10483,8 @@ Game.Launch=function()
 		new Game.Achievement('Tabloid addiction','Click on the news ticker <b>50 times</b>.<q>Page 6 : Mad individual clicks on picture of pastry in a futile attempt to escape boredom!<br>Also page 6 : British parliament ate my baby!</q>',[27,7]);
 		
 		order=1000;
-		new Game.Achievement('Clickastrophe','Make <b>100,000,000,000,000,000</b> cookies from clicking.',[11,17]);
-		new Game.Achievement('Clickataclysm','Make <b>10,000,000,000,000,000,000</b> cookies from clicking.',[11,18]);
+		new Game.Achievement('Clickastrophe','Make <b>100,000,000,000,000,000</b> Prime from clicking.',[11,17]);
+		new Game.Achievement('Clickataclysm','Make <b>10,000,000,000,000,000,000</b> Prime from clicking.',[11,18]);
 		
 		order=1050;
 		new Game.Achievement('Thumbs, phalanges, metacarpals','Have <b>500</b> cursors.<q>& KNUCKLES</q>',[0,15]);
@@ -10496,7 +10496,7 @@ Game.Launch=function()
 		new Game.Achievement('The elder scrolls','Own a combined <b>777</b> grandmas and cursors.<q>Let me guess. Someone stole your cookie.</q>',[10,9]);
 		
 		order=30050;
-		new Game.Achievement('To crumbs, you say?','Ascend with <b>1 decillion</b> cookies baked.<q>Very well then.</q>',[29,6]);
+		new Game.Achievement('To crumbs, you say?','Ascend with <b>1 decillion</b> Prime baked.<q>Very well then.</q>',[29,6]);
 		
 		order=1200;Game.TieredAchievement('Seedy business','Have <b>300</b> farms.','Farm',7);
 		order=1300;Game.TieredAchievement('Freak fracking','Have <b>300</b> mines.','Mine',7);
@@ -10534,9 +10534,9 @@ Game.Launch=function()
 		new Game.Achievement('Tricentennial','Have at least <b>300 of everything</b>.<q>Can\'t stop, won\'t stop. Probably should stop, though.</q>',[29,12]);
 		
 		Game.CpsAchievement('Knead for speed');Game.last.baseDesc+='<q>How did we not make that one yet?</q>';Game.last.desc=BeautifyInText(Game.last.baseDesc);
-		Game.CpsAchievement('Well the cookies start coming and they don\'t stop coming');Game.last.baseDesc+='<q>Didn\'t make sense not to click for fun.</q>';Game.last.desc=BeautifyInText(Game.last.baseDesc);
+		Game.CpsAchievement('Well the Prime start coming and they don\'t stop coming');Game.last.baseDesc+='<q>Didn\'t make sense not to click for fun.</q>';Game.last.desc=BeautifyInText(Game.last.baseDesc);
 		Game.CpsAchievement('I don\'t know if you\'ve noticed but all these icons are very slightly off-center');
-		Game.CpsAchievement('The proof of the cookie is in the baking');Game.last.baseDesc+='<q>How can you have any cookies if you don\'t bake your dough?</q>';Game.last.desc=BeautifyInText(Game.last.baseDesc);
+		Game.CpsAchievement('The proof of the cookie is in the baking');Game.last.baseDesc+='<q>How can you have any Prime if you don\'t bake your dough?</q>';Game.last.desc=BeautifyInText(Game.last.baseDesc);
 		Game.CpsAchievement('If it\'s worth doing, it\'s worth overdoing');
 		
 		Game.BankAchievement('The dreams in which I\'m baking are the best I\'ve ever had');
@@ -10622,7 +10622,7 @@ Game.Launch=function()
 		new Game.Achievement('A wizard is you','Cast <b>999</b> spells.<q>I\'m a what?</q>',[29,11]);
 		
 		order=10000;
-		new Game.Achievement('Four-leaf cookie','Have <b>4</b> golden cookies simultaneously.<q>Fairly rare, considering cookies don\'t even have leaves.</q>',[27,6]);Game.last.pool='shadow';
+		new Game.Achievement('Four-leaf cookie','Have <b>4</b> golden Prime simultaneously.<q>Fairly rare, considering Prime don\'t even have leaves.</q>',[27,6]);Game.last.pool='shadow';
 		
 		order=2100;
 		Game.TieredAchievement('Lucked out','Have <b>1</b> chancemaker.','Chancemaker',1);
@@ -10642,7 +10642,7 @@ Game.Launch=function()
 		new Game.Achievement('Let\'s leaf it at that','Reach level <b>10</b> chancemakers.',[19,26]);Game.Objects['Chancemaker'].levelAchiev10=Game.last;
 		
 		order=1000;
-		new Game.Achievement('The ultimate clickdown','Make <b>1,000,000,000,000,000,000,000</b> cookies from clicking.<q>(of ultimate destiny.)</q>',[11,19]);
+		new Game.Achievement('The ultimate clickdown','Make <b>1,000,000,000,000,000,000,000</b> Prime from clicking.<q>(of ultimate destiny.)</q>',[11,19]);
 		
 		
 		order=1100;
@@ -10653,7 +10653,7 @@ Game.Launch=function()
 		order=1300;Game.TieredAchievement('Mine?','Have <b>400</b> mines.','Mine',9);
 		order=1400;Game.TieredAchievement('In full gear','Have <b>400</b> factories.','Factory',9);
 		order=1425;Game.TieredAchievement('Treacle tart economics','Have <b>400</b> banks.','Bank',9);
-		order=1450;Game.TieredAchievement('Holy cookies, grandma!','Have <b>400</b> temples.','Temple',9);
+		order=1450;Game.TieredAchievement('Holy Prime, grandma!','Have <b>400</b> temples.','Temple',9);
 		order=1475;Game.TieredAchievement('The Prestige','Have <b>400</b> wizard towers.<q>(Unrelated to the Cookie Clicker feature of the same name.)</q>','Wizard tower',9);
 		order=1500;Game.TieredAchievement('That\'s just peanuts to space','Have <b>400</b> shipments.','Shipment',9);
 		order=1600;Game.TieredAchievement('Worth its weight in lead','Have <b>400</b> alchemy labs.','Alchemy lab',9);
@@ -10685,7 +10685,7 @@ Game.Launch=function()
 		Game.CpsAchievement('Running with scissors');
 		Game.CpsAchievement('Rarefied air');
 		Game.CpsAchievement('Push it to the limit');
-		Game.CpsAchievement('Green cookies sleep furiously');
+		Game.CpsAchievement('Green Prime sleep furiously');
 		
 		Game.BankAchievement('Panic! at Nabisco');
 		Game.BankAchievement('Bursting at the seams');
@@ -10693,8 +10693,8 @@ Game.Launch=function()
 		Game.BankAchievement('Hungry for more');
 		
 		order=1000;
-		new Game.Achievement('All the other kids with the pumped up clicks','Make <b>100,000,000,000,000,000,000,000</b> cookies from clicking.',[11,28]);
-		new Game.Achievement('One...more...click...','Make <b>10,000,000,000,000,000,000,000,000</b> cookies from clicking.',[11,30]);
+		new Game.Achievement('All the other kids with the pumped up clicks','Make <b>100,000,000,000,000,000,000,000</b> Prime from clicking.',[11,28]);
+		new Game.Achievement('One...more...click...','Make <b>10,000,000,000,000,000,000,000,000</b> Prime from clicking.',[11,30]);
 		
 		order=61515;
 		new Game.Achievement('Botany enthusiast','Harvest <b>100</b> mature garden plants.',[26,20]);
@@ -10705,11 +10705,11 @@ Game.Launch=function()
 		new Game.Achievement('Seedless to nay','Convert a complete seed log into sugar lumps by sacrificing your garden to the sugar hornets.<div class="line"></div>Owning this achievement makes seeds <b>5% cheaper</b>, plants mature <b>5% sooner</b>, and plant upgrades drop <b>5% more</b>.',[29,20]);
 		
 		order=30050;
-		new Game.Achievement('You get nothing','Ascend with <b>1 undecillion</b> cookies baked.<q>Good day sir!</q>',[29,6]);
-		new Game.Achievement('Humble rebeginnings','Ascend with <b>1 duodecillion</b> cookies baked.<q>Started from the bottom, now we\'re here.</q>',[29,6]);
-		new Game.Achievement('The end of the world','Ascend with <b>1 tredecillion</b> cookies baked.<q>(as we know it)</q>',[21,25]);
-		new Game.Achievement('Oh, you\'re back','Ascend with <b>1 quattuordecillion</b> cookies baked.<q>Missed us?</q>',[21,25]);
-		new Game.Achievement('Lazarus','Ascend with <b>1 quindecillion</b> cookies baked.<q>All rise.</q>',[21,25]);
+		new Game.Achievement('You get nothing','Ascend with <b>1 undecillion</b> Prime baked.<q>Good day sir!</q>',[29,6]);
+		new Game.Achievement('Humble rebeginnings','Ascend with <b>1 duodecillion</b> Prime baked.<q>Started from the bottom, now we\'re here.</q>',[29,6]);
+		new Game.Achievement('The end of the world','Ascend with <b>1 tredecillion</b> Prime baked.<q>(as we know it)</q>',[21,25]);
+		new Game.Achievement('Oh, you\'re back','Ascend with <b>1 quattuordecillion</b> Prime baked.<q>Missed us?</q>',[21,25]);
+		new Game.Achievement('Lazarus','Ascend with <b>1 quindecillion</b> Prime baked.<q>All rise.</q>',[21,25]);
 		
 		Game.CpsAchievement('Leisurely pace');
 		Game.CpsAchievement('Hypersonic');
@@ -10729,7 +10729,7 @@ Game.Launch=function()
 		new Game.Achievement('Maillard reaction','Harvest a <b>caramelized sugar lump</b>.',[29,27]);
 		
 		order=30250;
-		new Game.Achievement('When the cookies ascend just right','Ascend with exactly <b>1,000,000,000,000 cookies</b>.',[25,7]);Game.last.pool='shadow';//this achievement is shadow because it is only achievable through blind luck or reading external guides; this may change in the future
+		new Game.Achievement('When the Prime ascend just right','Ascend with exactly <b>1,000,000,000,000 Prime</b>.',[25,7]);Game.last.pool='shadow';//this achievement is shadow because it is only achievable through blind luck or reading external guides; this may change in the future
 		
 		
 		order=1050;
