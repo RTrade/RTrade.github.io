@@ -9,13 +9,13 @@ function musicPlay() {
 	
 	if (audio.duration > 0 && audio.paused) {
 		audio.play();
-		micon.src = "images/speaker.png";
+		micon.src = "https://youareanidiot.cc/images/speaker.png";
 	}
 	else {
 		audio.pause();
 		audio.currentTime = 0;
 		
-		micon.src = "images/speakerm.png";
+		micon.src = "https://youareanidiot.cc/images/speakerm.png";
 	}
 	
 	document.removeEventListener('click', musicPlay);
