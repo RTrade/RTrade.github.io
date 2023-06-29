@@ -1,14 +1,27 @@
 <html>
-    
 <head>
     <!-- HTML data -->
-    <title>Discord Verification</title>
+    <title>FergusClient</title>
     <!-- CSS file -->
-    <link type='text/css' rel="stylesheet" href="../css/style.css">
+    <link type='text/css' rel="stylesheet" href="./css/style.css">
     <!-- JavaScript files -->
-    <script type='text/javascript' src="../js/jquery.min.js"></script>
-    <script type='text/javascript' src="../js/particleground.min.js"></script>
-    <script type='text/javascript' src="../js/particles.js"></script>
+    <script type='text/javascript' src="./js/jquery.min.js"></script>
+    <script type='text/javascript' src="./js/particleground.min.js"></script>
+    <script type='text/javascript' src="./js/particles.js"></script>
+    <style>
+        /* Example CSS style */
+         #app {
+    z-index: 1;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+        font-size: 28px;
+    font-weight: 400;
+    color: lightgreen;
+     }
+
+    </style>
     <script>
         function generateRandomText() {
             var characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
@@ -17,7 +30,8 @@
                 var randomIndex = Math.floor(Math.random() * characters.length);
                 randomText += characters.charAt(randomIndex);
             }
-            document.getElementById("randomText").textContent = randomText;
+            var appElement = document.getElementById("app");
+            appElement.textContent = randomText;
         }
         window.onload = function() {
             generateRandomText();
@@ -27,7 +41,7 @@
 <body>
     <div id="particles"></div>
     <div id="app">
-        <span id="randomText">Generating Account</span>
+        <span id="randomText">random letters and numbers</span>
     </div>
 </body>
 </html>
