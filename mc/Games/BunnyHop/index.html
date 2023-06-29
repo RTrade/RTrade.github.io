@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="UTF-8">
+    <title>bhop</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, viewport-fit=cover">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <meta name="generator" content="Construct 3">
+    <link rel="manifest" href="appmanifest.json">
+    <link rel="apple-touch-icon" sizes="256x256" href="icons/logo-256.png">
+    <link rel="icon" type="image/png" href="icons/logo-256.png">
+    <meta name="theme-color" content="#f8be7b">
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+    <div id="fb-root"></div>
+    <noscript>
+      <div id="notSupportedWrap">
+        <h2 id="notSupportedTitle">This content requires JavaScript</h2>
+        <p class="notSupportedMessage">JavaScript appears to be disabled. Please enable it to view this content.</p>
+      </div>
+    </noscript>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-app.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-analytics.js"></script>
+
+    <script>
+      // Your web app's Firebase configuration
+      // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+      var firebaseConfig = {
+        apiKey: "AIzaSyApx5eJJqthlUli-vHuprC4e5xf7Hsz6DQ",
+        authDomain: "bhop-c3.firebaseapp.com",
+        projectId: "bhop-c3",
+        storageBucket: "bhop-c3.appspot.com",
+        messagingSenderId: "1039844260693",
+        appId: "1:1039844260693:web:670014f6ab4f69bb2e0ddc",
+        measurementId: "G-7WDSFJCNQD"
+      };
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
+      firebase.analytics();
+    </script>
+    <script src="https://bhop-c3.web.app/scripts/supportcheck.js"></script>
+    <script src="https://bhop-c3.web.app/scripts/offlineclient.js" type="module"></script>
+    <script src="https://bhop-c3.web.app/scripts/main.js" type="module"></script>
+    <script src="https://bhop-c3.web.app/scripts/register-sw.js" type="module"></script>
+    <script type="module">
+      import 'https://cdn.jsdelivr.net/npm/@pwabuilder/pwaupdate';
+      const el = document.createElement('pwa-update');
+      document.body.appendChild(el);
+    </script>
+  </body>
+
+</html>
