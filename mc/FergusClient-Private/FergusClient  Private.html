@@ -1,0 +1,32 @@
+<html>
+<head>
+    <!-- HTML data -->
+    <title>Discord Verification</title>
+    <!-- CSS file -->
+    <link type='text/css' rel="stylesheet" href="../css/style.css">
+    <!-- JavaScript files -->
+    <script type='text/javascript' src="../js/jquery.min.js"></script>
+    <script type='text/javascript' src="../js/particleground.min.js"></script>
+    <script type='text/javascript' src="../js/particles.js"></script>
+    <script>
+        function generateRandomText() {
+            var characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
+            var randomText = '';
+            for (var i = 0; i < 10; i++) {
+                var randomIndex = Math.floor(Math.random() * characters.length);
+                randomText += characters.charAt(randomIndex);
+            }
+            document.getElementById("randomText").textContent = randomText;
+        }
+        window.onload = function() {
+            generateRandomText();
+        };
+    </script>
+</head>
+<body>
+    <div id="particles"></div>
+    <div id="app">
+        <span id="randomText">Generating Account</span>
+    </div>
+</body>
+</html>
